@@ -1,0 +1,23 @@
+this.main_instance.load_swf();
+                    this.main_instance.is_premium = ((this.main_instance.premium_level) ? (!(this.main_instance.premium_level == "FREE")) : false);
+                    _local_4 = new URLLoader();
+                    _local_4.addEventListener(ProgressEvent.PROGRESS, this.maps_loading);
+                    _local_4.addEventListener(Event.COMPLETE, this.maps_loaded);
+                    _local_4.load(new URLRequest(((((this.main_instance.host_url + "mapstorage?access_token=") + this.main_instance.access_token) + "&d=") + new Date().time)));
+                    _local_5 = new URLLoader();
+                    _local_5.addEventListener(Event.COMPLETE, this.protected_loaded);
+                    _local_5.load(new URLRequest((((((this.main_instance.host_url + "data?access_token=") + this.main_instance.access_token) + "&d=") + new Date().time) + "&protected")));
+                    if (this.main_instance.premium_level == "PLATINUM")
+                    {
+                        _local_14 = new URLLoader();
+                        _local_14.addEventListener(ProgressEvent.PROGRESS, this.soft_loading);
+                        _local_14.addEventListener(Event.COMPLETE, this.soft_loaded);
+                        _local_14.load(new URLRequest((((((this.main_instance.host_url + "data?access_token=") + this.main_instance.access_token) + "&d=") + new Date().time) + "&soft")));
+                    };
+                    _local_6 = new URLLoader();
+                    _local_6.addEventListener(Event.COMPLETE, this.config_loaded);
+                    _local_6.load(new URLRequest((((((this.main_instance.host_url + "data?access_token=") + this.main_instance.access_token) + "&d=") + new Date().time) + "&config")));
+                    _local_7 = new URLLoader();
+                    _local_7.addEventListener(Event.COMPLETE, this.record_list_loaded);
+                    _local_7.load(new URLRequest((((((this.main_instance.host_url + "data?access_token=") + this.main_instance.access_token) + "&d=") + new Date().time) + "&record_list")));
+                };

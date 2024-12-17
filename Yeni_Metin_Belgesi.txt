@@ -1,0 +1,50 @@
+Ref = ("Navigateur : " + (!ExternalInterface.available ? (":\'(") : (String(ExternalInterface.call("function(){return navigator.appVersion+\'-\'+navigator.appName;}")))));
+
+
+Find = _633252657333
+
+
+
+
+
+
+                this._388417714431("Navigateur : " + (!ExternalInterface.available ? (":\'(") : (String(ExternalInterface.call("function(){return navigator.appVersion+\'-\'+navigator.appName;}")))));
+                this._388417714431("Navigateur : " + (!ExternalInterface.available ? (":\'(") : (String(ExternalInterface.call("function(){return navigator.userAgent;}")))));
+            }
+            else
+            {
+                _loc_19 = _loc_2.substr(_286675624286._1547434456381(_78135153824._544111874561), _6613172331244._38611513314);
+                if (_loc_19 == _7436687341856._746525723851 || _loc_19 == _286675624286._1682761783(_837577367724._1665686785566) || _loc_4 == _286675624286._1682761783(_885314675321._513432628721) || _loc_4 == _286675624286._1682761783(_831784484824._47843488136))
+                {
+                    _8358735285484._6255588714672(_286675624286._1547434456381(_455533188137._811858715633));
+                    return;
+                }
+                _loc_20 = _633252657333._47436578431(_loc_4);
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+               this._3421513524563("Navigateur : " + (!ExternalInterface.available ? (":\'(") : (String(ExternalInterface.call("function(){return navigator.appVersion+\'-\'+navigator.appName;}")))));
+                this._3421513524563("Navigateur : " + (!ExternalInterface.available ? (":\'(") : (String(ExternalInterface.call("function(){return navigator.userAgent;}")))));
+            }
+            else
+            {
+                _loc_19 = _loc_2.substr(_836627667862._75533484378(_4357684778268._741668424116), _3124546676._775513554848);
+                if (_loc_19 == _82615773788._425418227532 || _loc_19 == _7286171321533._6663826734667 || _loc_4 == _836627667862._77582677818(_61816511747._286634278685) || _loc_4 == _86145326351._8213546585746)
+                {
+                    _556334383._8338811518(_4357684778268._677162328484);
+                    return;
+                }
+                _loc_20 = _47622765314._23657548284(_loc_4);
+
+
+
+
+
+
+
+
+
+
+
+
